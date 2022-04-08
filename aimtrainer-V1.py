@@ -78,9 +78,9 @@ def targetHit(e):
     
     if num1 == 0:
         window.unbind(keuzes[num1][num2])
-        point += 1
-    else:
         point += 2
+    else:
+        point += 1
     points.set(f'points = {point}')
     begin()
 
